@@ -1,5 +1,5 @@
 body {
-  background: #ccc url("../images/photography.png") repeat;
+  background: #ccc url("photography.png") repeat;
   font-family: "Inconsolata", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-weight: 300;
   font-size: 18px;
@@ -791,7 +791,11 @@ textarea.form-control {
   font-size: 15px;
   width: 100%;
   float: left;
-  background: #fff; }
+  background: #fff;
+}
+div .sidebar-box{ 
+  overflow: visible !important;
+}
   .sidebar-box *:last-child {
     margin-bottom: 0; }
   .sidebar-box .heading {
