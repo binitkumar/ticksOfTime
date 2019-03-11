@@ -1,0 +1,61 @@
+###################################
+### GENERAL, HEADER & META TAGS ###
+###################################
+
+logo: ""                                                                        # Logo for your blog. Leave empty if you don't have one
+blog_name: "Ticks of Time"                                                              # Give your blog a meanungful name.
+title: "Discussing sociological and political aspects of common day to day events"             # Give your blog a meaningful title. This is used for the HTML title attribute
+title_short: "TicksOfTime"                                                            # Place the name of your blog or a short title here
+short_description: "Sociological and Political aspects of day to day events"         # Short description for your blog
+meta_description: "Prospectives on daily events, news analysis, political prospectives"  # meta description tag
+meta_author: "B Kumar"                                                         # meta tag for author
+keywords: "Socilogical, Political, Academic, Prospectivs, news analysis"                                          # your keywords
+og_logo: "https://opoloo.github.io/lines-engine/assets/images/lines-logo.jpg"   # OpenGraph logo
+geo_position: "50.00; 8.27"                                                     # Geo tags for position and address
+geo_address: "Opoloo, 55116 Mainz"                                              # Geo tags for position and address
+
+
+##############
+### SOCIAL ###
+##############
+
+# Your Twitter and Google+ profile URL
+# Leave empty if you don't want to display inside the footer
+twitter_url: ''
+
+
+#################
+### ATOM FEED ###
+#################
+
+feed_title: ""        # give your feed a title
+feed_logo: "" # full URL to the feed logo. Aspect ratio should be 2:1
+feed_favicon: "" # full URL to the favicon. Aspect ratio should be 1:1
+
+
+#####################
+### APP SPECIFICS ###
+#####################
+
+refresh_sitemap: false
+
+hero_images: ["lines_default_01.png", "lines_default_02.png", "lines_default_03.png"]
+
+articles_per_page: 10 # Pagination: How many articles should be desplayed per page?
+
+# Your apps secret token. Generate a new one with 'rake secret' and paste it below
+secret_token: "709946a41ca10f94d76beb4d389ebc99714e621c71e507994353214b05aaf03ca6dbacdf258bfcce80fa78ce8d9ca671a7798700837d84894661bc083e0ff29d"
+
+# Carrierwave uploader
+storage: :file # or "aws" if using carrierwave-aws or "ftp" of using carrierwave-ftp
+
+# Environment dependent configuration. Place your URLs here
+development:
+  host: "localhost:3000"
+  from_email: 'binit.kumar.hbs@gmail.com'
+test:
+  host: "test.local"
+  from_email: 'binit.kumar.hbs@gmail.com'
+production:
+  host: "blog.opoloo.com"
+  from_email: 'binit.kumar.hbs@gmail.com'
